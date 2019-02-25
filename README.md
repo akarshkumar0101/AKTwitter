@@ -1,27 +1,27 @@
-# AKTwitter
-My twitter iOS client.
-AKTwitter is my Twitter client for iOS that allows you to view the latest tweets on your timeline.
+# Project 3 - *AKTwitter*
 
+**AKTwitter** is a basic twitter app to read your tweets.
 
-📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
+Time spent: **4** hours spent in total
 
----
+## User Stories
 
-## AKTwitter Part 1
+The following **required** functionality is completed:
 
+- [x] User sees app icon in home screen and styled launch screen. (1pt)
+- [x] User can log in. (1pt)
+- [x] User can log out. (1pt)
+- [x] User stays logged in across restarts. (1pt)
+- [x] User can view tweets with the user profile picture, username, and tweet text. (6pts)
 
-#### REQUIRED (10pts)
-- [x] (2pts) User can see a table view with all of the tweets
-- [x] (5pts) User can see profile picture of other tweeters
+The following **bonus** features are implemented:
 
-#### BONUS
-- [ ] (1pt) Pull to refresh
-- [ ] (2pt) Infinite scroll for tweets
+- [ ] User can pull to refresh. (1pt)
+- [ ] User can load past tweets infinitely. (2pts)
 
+## Video Walkthrough
 
-### App Walkthough GIF
+Here's a walkthrough of implemented user stories:
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src='https://github.com/akarshkumar0101/AKTwitter/blob/master/part%201%20demo.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-### Notes
-Describe any challenges encountered while building the app.
