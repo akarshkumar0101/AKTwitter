@@ -23,5 +23,6 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+
 <img src='https://github.com/akarshkumar0101/AKTwitter/blob/master/part%201%20demo.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
