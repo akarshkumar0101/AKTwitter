@@ -21,7 +21,7 @@ AKTwitter is my Twitter client for iOS that allows you to view the latest tweets
 
 ### App Walkthough GIF
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://github.com/akarshkumar0101/AKTwitter/blob/master/part%201%20demo.gif?raw=true" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
