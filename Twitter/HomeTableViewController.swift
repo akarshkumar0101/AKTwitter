@@ -13,6 +13,8 @@ class HomeTableViewController: UITableViewController {
     var tweetArray = [NSDictionary]()
     var numberOfTweets: Int!
     
+    let myRefreshControl = UIRefreshControl()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,11 +24,19 @@ class HomeTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
+        self.tableView.rowHeight = UITableView.automaticDimension
+        self.tableView.estimatedRowHeight = 150;
         
+        myRefreshControl.addTarget(self, action: #selector(loadTweets), for: .valueChanged)
+        tableView.refreshControl = myRefreshControl
+        
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         loadTweets()
     }
     
-    func loadTweets(){
+    @objc func loadTweets(){
         let url = "https://api.twitter.com/1.1/statuses/home_timeline.json"
         let params = ["count": 10]
         
@@ -37,6 +47,8 @@ class HomeTableViewController: UITableViewController {
             }
             
             self.tableView.reloadData()
+            
+            self.myRefreshControl.endRefreshing()
         }, failure: { (Error) in
             print("could not load the tweets")
         })
@@ -73,6 +85,14 @@ class HomeTableViewController: UITableViewController {
         if let imageData = data {
             cell.profileImageView.image = UIImage(data: imageData)
         }
+        
+        cell.tweetID = tweetArray[indexPath.row]["id"] as! Int
+        
+        cell.isFavorite = tweetArray[indexPath.row]["favorited"] as! Bool
+        cell.isRetweeted = tweetArray[indexPath.row]["retweeted"] as! Bool
+        
+        
+        
         
         
         return cell
