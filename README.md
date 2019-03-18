@@ -24,7 +24,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/akarshkumar0101/AKTwitter/blob/master/part%202%20demo.gif?raw=true' title='Video Walkthrough Part 2' width='' alt='Video Walkthrough' />
+<img src='https://github.com/akarshkumar0101/AKTwitter/blob/master/part%202%20demo.gif?raw=true' title='Video Walkthrough Part 2' width='250' alt='Video Walkthrough' />
 
 **AKTwitter** is a basic twitter app to read your tweets.
 
@@ -50,5 +50,5 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 
-<img src='https://github.com/akarshkumar0101/AKTwitter/blob/master/part%201%20demo.gif?raw=true' title='Video Walkthrough Part 1' width='' alt='Video Walkthrough' />
+<img src='https://github.com/akarshkumar0101/AKTwitter/blob/master/part%201%20demo.gif?raw=true' title='Video Walkthrough Part 1' width='250' alt='Video Walkthrough' />
 
