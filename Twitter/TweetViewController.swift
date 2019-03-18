@@ -10,13 +10,20 @@ import UIKit
 
 class TweetViewController: UIViewController {
 
+    @IBOutlet weak var tweetingFromLabel: UILabel!
+    
     @IBOutlet weak var tweetTextView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        //tweetingFromLabel.text = user.current
         tweetTextView.becomeFirstResponder()
+        
+        tweetTextView.layer.borderWidth = 2.0
+        tweetTextView.layer.borderColor = UIColor.black.cgColor
+        tweetTextView.layer.cornerRadius = 5
     }
     
     @IBAction func cancel(_ sender: Any) {

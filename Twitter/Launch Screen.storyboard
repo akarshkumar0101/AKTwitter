@@ -18,12 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="40H-Cw-10H">
-                                <rect key="frame" x="0.0" y="138" width="375" height="391"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="TwitterBirdCool_400x400" translatesAutoresizingMaskIntoConstraints="NO" id="OWb-WT-aZF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OWb-WT-aZF" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="F6J-ba-b6o"/>
+                            <constraint firstItem="OWb-WT-aZF" firstAttribute="bottom" secondItem="Bcu-3y-fUS" secondAttribute="bottom" id="dF3-rZ-X5D"/>
+                            <constraint firstItem="OWb-WT-aZF" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="e7a-uD-djJ"/>
+                            <constraint firstItem="OWb-WT-aZF" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="gzi-vc-zxw"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
                 </viewController>
@@ -33,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="TwitterLogoBlue" width="400" height="400"/>
+        <image name="TwitterBirdCool_400x400" width="296.9072265625" height="296.9072265625"/>
     </resources>
 </document>
